@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %} 
+    <h1>Madlibs</h1>
+    <form action="">
+        <label for="place">place:</label>
+        <input type="text" id="place" name="place"></br></br>
+        <label for="noun">noun:</label>
+        <input type="text" id="noun" name="noun"></br></br>
+        <label for="verb">verb:</label>
+        <input type="text" id="verb" name="verb"></br></br>
+        <label for="adjective">adjective:</label>
+        <input type="text" id="adjective" name="adjective"></br></br>
+        <label for="plural_noun">plural_noun:</label>
+        <input type="text" id="plural_noun" name="plural_noun"></br></br>
+        <label for="dropdown_list">story:</label>
+        <select name="dropdown_list" id="dropdown_list">
+            <option value="story_1">Story 1</option>
+            <option value="story_2">Story 2</option>
+            <option value="story_3">Story 3</option>
+            <option value="story_4">Story 4</option>
+            <option value="story_5">Story 5</option>
+        </select></br></br>
+        <button type="submit">Submit</button>
+    </form>
+{% endblock%}
