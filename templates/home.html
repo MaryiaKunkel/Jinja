@@ -2,7 +2,7 @@
 {% block title %}Home{% endblock %}
 {% block content %} 
     <h1>Madlibs</h1>
-    <form action="">
+    <form action="/story">
         <label for="place">place:</label>
         <input type="text" id="place" name="place"></br></br>
         <label for="noun">noun:</label>
@@ -13,8 +13,8 @@
         <input type="text" id="adjective" name="adjective"></br></br>
         <label for="plural_noun">plural_noun:</label>
         <input type="text" id="plural_noun" name="plural_noun"></br></br>
-        <label for="dropdown_list">story:</label>
-        <select name="dropdown_list" id="dropdown_list">
+        <label for="selected_story">story:</label>
+        <select name="selected_story" id="selected_story">
             <option value="story_1">Story 1</option>
             <option value="story_2">Story 2</option>
             <option value="story_3">Story 3</option>
